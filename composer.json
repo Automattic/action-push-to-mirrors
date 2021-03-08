@@ -4,7 +4,14 @@
 	"type": "project",
 	"license": "GPL-2.0-or-later",
 	"require": {},
+	"require-dev": {
+		"automattic/jetpack-changelogger": "1.0.x-dev"
+	},
+	"repositories": [],
 	"extra": {
-		"mirror-repo": "Automattic/action-push-to-mirrors"
+		"mirror-repo": "Automattic/action-push-to-mirrors",
+		"changelogger": {
+			"link-template": "https://github.com/Automattic/action-push-to-mirrors/compare/v${old}...v${new}"
+		}
 	}
 }
