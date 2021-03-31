@@ -9,6 +9,9 @@
 	},
 	"repositories": [],
 	"extra": {
+		"autotagger": {
+			"major": true
+		},
 		"mirror-repo": "Automattic/action-push-to-mirrors",
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/action-push-to-mirrors/compare/v${old}...v${new}"
