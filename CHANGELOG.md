@@ -17,6 +17,9 @@ This is an alpha version! The changes listed here are not final.
 - Avoid setting global state during the action.
 - Update package dependencies.
 
+### Fixed
+- Correctly supply git auth token.
+
 ## 1.0.0 - 2021-02-01
 
 - Initial release
