@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Avoid setting global state during the action.
+- Updated package dependencies.
 - Update package dependencies.
 
 ### Fixed
