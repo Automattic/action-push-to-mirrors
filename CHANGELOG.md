@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Created a changelog from the git history with help from [auto-changelog](https://www.npmjs.com/package/auto-changelog). It could probably use cleanup!
 
 ### Changed
+- Avoid context expression substitution in GitHub Actions `run` steps.
 - Avoid setting global state during the action.
 - Updated package dependencies.
 - Update package dependencies.
