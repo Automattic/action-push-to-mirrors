@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Avoid context expression substitution in GitHub Actions `run` steps.
 - Avoid setting global state during the action.
+- Make auth more reliable when checking whether the mirror repo exists.
 - Updated package dependencies.
 - Update package dependencies.
 
