@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Log the fetched base revision when preparing the push.
 
+### Changed
+- Update version of `actions/checkout` in doc example.
+
 ## [1.0.3] - 2022-02-09
 ### Changed
 - Core: update description and metadata before to publish to marketplace.
