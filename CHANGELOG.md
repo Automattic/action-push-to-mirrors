@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Log the fetched base revision when preparing the push.
 
 ### Changed
+- Renaming `master` references to `main`
 - Updated package dependencies.
 - Update version of `actions/checkout` in doc example.
 
