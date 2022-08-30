@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.5-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Tooling: enable automatic GitHub releases when a new version of the action is tagged, so the new version can be made available in the GitHub Actions marketplace.
+
 ## [1.0.4] - 2022-08-03
 ### Added
 - Log the fetched base revision when preparing the push.
@@ -39,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
+[1.0.5-alpha]: https://github.com/Automattic/action-push-to-mirrors/compare/v1.0.4...v1.0.5-alpha
 [1.0.4]: https://github.com/Automattic/action-push-to-mirrors/compare/v1.0.3...v1.0.4
 [1.0.3]: https://github.com/Automattic/action-push-to-mirrors/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/Automattic/action-push-to-mirrors/compare/v1.0.1...v1.0.2
