@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added support for GitHub Enterprise by replacing github.com with a dynamic variable
 
+### Changed
+- Update example in readme to use `actions/checkout@v4`.
+
 ## [2.0.0] - 2022-11-23
 ### Changed
 - It is now considered an error if the mirror repo does not exist. [#27523]
