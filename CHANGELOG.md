@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Add footers like `Upstream-Ref: owner/repo@sha` to mirrored commits, to make it easy to find the source of any particular mirrored commit. New workflow parameter `no-upstream-refs` may be set to disable this.
 - Use the `Upstream-Ref` footers to find better base commits for newly-mirrored branches. Add workflow parameters `upstream-ref-count` and `upstream-ref-since` to control how many commits are searched.
 
+### Changed
+- Disable git automatic garbage collection. No point to it as the local repos will be immediately discarded.
+
 ## [2.1.0] - 2024-02-07
 ### Added
 - Added support for GitHub Enterprise by replacing github.com with a dynamic variable [#32974]
