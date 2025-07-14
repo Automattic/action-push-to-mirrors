@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - When updating an existing mirror branch, check that the commit we're mirroring is not an ancestor of the commit already there. This avoids accidental reverts if Actions runs are misordered.
 
+### Fixed
+- Add a workaround for [a git bug](https://lore.kernel.org/git/20250428192320.3595509-1-jonathantanmy@google.com/).
+
 ## [2.2.2] - 2025-05-13
 ### Changed
 - Update dependencies. [#42002]
