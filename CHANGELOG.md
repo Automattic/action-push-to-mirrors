@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- If an artifact already contains a `.git` dir, skip it. This avoids certain attacks based on having malicious hooks or config in the artifact.
+
 ### Changed
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 
